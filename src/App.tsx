@@ -20,6 +20,8 @@ function App() {
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
+        <h1>Hello World! </h1>
+          <h2>This is Ben Merryman's first Vite application (and AWS deploy!)</h2>
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>

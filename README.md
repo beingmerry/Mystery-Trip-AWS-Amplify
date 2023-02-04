@@ -1,0 +1,1 @@
+# Mystery-Trip-AWS-Amplify

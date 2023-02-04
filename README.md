@@ -35,4 +35,6 @@ TypeScript is a much more modern, typed version of JavaScript. I should be able 
 - [x] -- Initialize the Vite repo - 02-04 13:30
 - [x] -- Decide to use TypeScript - 02-04 13:32
 - [x] -- Build initial Vite Repo - 02-04 13:39
-- [ ] -- Get site up and showing on AWS
+- [x] -- Get site up and showing on AWS - 2-04, 17:40
+  - "It's ACTUALLY WORKING!!!" - Ben
+- [ ] -- Get Ruby working

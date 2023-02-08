@@ -4,7 +4,8 @@ Initialization at 13:36 EST, 2023-02-04 -- Ben Merryman
 
 # MysteryTrip App
 
-- [ ] -- Cool Sign up / Demo Gif / Login front splash page -[ ] -- Login that will allow access
+- [ ] -- Cool Sign up / Demo Gif / Login front splash page
+- [ ] -- Login that will allow access
   - [ ] -- to trip creation
     - [ ] -- to trip editing (if ROLE=CREATOR)
     - [ ] -- to trip deleting (if ROLE=CREATOR)
@@ -37,4 +38,6 @@ TypeScript is a much more modern, typed version of JavaScript. I should be able 
 - [x] -- Build initial Vite Repo - 02-04 13:39
 - [x] -- Get site up and showing on AWS - 2-04, 17:40
   - "It's ACTUALLY WORKING!!!" - Ben
-- [ ] -- Get Ruby working
+- [ ] -- Get Ruby working (Got ruby Working but needing to switch to build mode for site)
+
+- 

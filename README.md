@@ -40,4 +40,15 @@ TypeScript is a much more modern, typed version of JavaScript. I should be able 
   - "It's ACTUALLY WORKING!!!" - Ben
 - [ ] -- Get Ruby working (Got ruby Working but needing to switch to build mode for site)
 
-- 
+# Frontend Status
+- [x] -- Login page roughed out
+  - [ ] -- Login page interacting with Rails
+- [ ] -- Build router and top bar links
+- [ ] -- Build basic fetches and interactions for Friday MVP
+- [ ] -- 2 roles Trip Taker or Trip Builder
+  - [ ] -- Trip builder puts together all the trip parts and event triggers for emails / SMS messages
+    - [ ] -- Build in event triggers
+    - [ ] -- Build in Emails
+    - [ ] -- Build in SMS messages
+  - [ ] -- Trip take can observe trips they've taken, or see "certain" parts (dependent on Trip Builder's configuration of trip)
+    - [ ] -- Build own trips if they "subscribe" to the service

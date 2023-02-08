@@ -1,19 +1,16 @@
 import React from 'react'
-import './Navbar.css'
 
 export default function Navbar ({ fixed }: { fixed: boolean }) {
   const [navbarOpen, setNavbarOpen] = React.useState(false)
   return (
-    <nav className='flex navbar'>
-      <div>
+    <nav className='flex items-center justify-between flex-wrap bg-teal-500 p-6 border-b-4 border-indigo-500'>
+      <div className='flex items-center flex-shrink-0 text-slate-300 mr-6'>
         <h1>🔮 MysteryTrip</h1>
-        <h2>🛫 Travel with a dash of Mystery</h2>
       </div>
+      <h2>🛫 Travel with a dash of Mystery</h2>
     </nav>
   )
 }
-
-
 
 // <nav className='relative flex flex-wrap items-center justify-between px-2 py-3 bg-pink-500 mb-3'>
 // <div className='container px-4 mx-auto flex flex-wrap items-center justify-between'>

@@ -17,11 +17,11 @@
   -webkit-text-size-adjust: 100%;
 }
 
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
-}
-h2 {
-  font-size: 1.5em;
-  margin: 0.83em 0;
+@layer base {
+  h1 {
+    @apply text-2xl;
+  }
+  h2 {
+    @apply text-xl;
+  }
 }

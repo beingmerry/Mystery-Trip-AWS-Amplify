@@ -1,6 +1,5 @@
 import { useState } from 'react'
-import './App.css'
-import Navbar from '../Navbar/Navbar'
+import Navbar from './Navbar'
 
 function App () {
   const [showDefault, setShowDefault] = useState(false)
@@ -8,7 +7,6 @@ function App () {
   return (
     <>
       <Navbar fixed={false} />
-     
     </>
   )
 }

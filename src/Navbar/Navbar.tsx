@@ -4,7 +4,7 @@ import './Navbar.css'
 export default function Navbar ({ fixed }: { fixed: boolean }) {
   const [navbarOpen, setNavbarOpen] = React.useState(false)
   return (
-    <nav className='flex'>
+    <nav className='flex navbar'>
 
     </nav>
   )

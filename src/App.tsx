@@ -10,8 +10,8 @@ function App () {
     <>
       <Navbar fixed={false} />
       <div>
-        <h1>MysteryTrip</h1>
-        <h2>Taking you where you didn't know you wanted to go</h2>
+        <h1>🔮 MysteryTrip</h1>
+        <h2>🛫 Travel with a dash of Mystery</h2>
       </div>
     </>
   )

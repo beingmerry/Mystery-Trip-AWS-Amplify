@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Navbar from './Navbar'
+import SplashLanding from './SplashLanding'
 
 function App () {
   const [showDefault, setShowDefault] = useState(false)
@@ -7,6 +8,7 @@ function App () {
   return (
     <>
       <Navbar fixed={false} />
+      <SplashLanding />
     </>
   )
 }

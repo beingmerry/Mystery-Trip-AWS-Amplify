@@ -4,10 +4,10 @@ export default function Navbar ({ fixed }: { fixed: boolean }) {
   const [navbarOpen, setNavbarOpen] = React.useState(false)
   return (
     <nav className='flex items-center justify-between flex-wrap bg-teal-500 p-6 border-b-4 border-indigo-500'>
-      <div className='flex items-center flex-shrink-0 text-slate-300 mr-6'>
+      <div className='flex items-center flex-shrink-0 text-slate-200 mr-6'>
         <h1>🔮 MysteryTrip</h1>
       </div>
-      <h2>🛫 Travel with a dash of Mystery</h2>
+      <h2 className='flex items-center flex-shrink-0 text-slate-200 mr-6'>🛫 Travel with a dash of Mystery</h2>
     </nav>
   )
 }

@@ -1,8 +1,7 @@
 import { useState, useEffect } from 'react'
 import Header from './Header'
-import Sidebar from './Sidebar'
+import { Outlet } from 'react-router-dom'
 import Footer from './Footer'
-import SplashLanding from './SplashLanding'
 
 function App () {
   const [showDefault, setShowDefault] = useState(false)
@@ -19,7 +18,7 @@ function App () {
     <div className='flex flex-col h-screen justify-between '>
       <Header fixed={false} />
       <div className='flex h-full w-auto justify-center dark:bg-slate-700 overflow-auto'>
-        <SplashLanding />
+        <Outlet />
       </div>
       <Footer />
     </div>

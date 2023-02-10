@@ -5,7 +5,7 @@ export default function SplashLanding () {
   const [rememberMe, setRememberMe] = useState(false)
   return (
     <section className='h-auto'>
-      <div className='container px-6 py-12 h-auto w-auto'>
+      <div className='container px-6 py-2 h-auto w-auto'>
         <div className='flex justify-center items-center flex-wrap h-full g-6 text-gray-800'>
           <div className='md:w-8/12 lg:w-6/12 mb-12 md:mb-0'>
             <img
@@ -59,16 +59,16 @@ export default function SplashLanding () {
                 </a>
               </div>
 
-              {/* <!-- Submit button --> */}
+              {/* <!-- Sign in button --> */}
               <button
                 type='submit'
-                className='inline-block px-7 py-3 bg-blue-600 text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out w-full'
+                className='inline-block px-7 py-3 bg-blue-500 text-white font-medium leading-snug uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out w-full'
                 data-mdb-ripple='true'
                 data-mdb-ripple-color='light'
               >
                 Sign in
               </button>
-
+              {/* <!-- Divider --> */}
               <div className='flex items-center my-4 before:flex-1 before:border-t before:border-gray-300 before:mt-0.5 after:flex-1 after:border-t after:border-gray-300 after:mt-0.5'>
                 <p className='text-center font-semibold mx-4 mb-0 dark:text-slate-200'>
                   Not a Mystery Tripper yet?
@@ -76,7 +76,7 @@ export default function SplashLanding () {
               </div>
 
               <a
-                className='px-7 py-3 text-white bg-blue-600 font-medium text-sm leading-snug uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out w-full flex justify-center items-center mb-3'
+                className='px-7 py-3 text-white bg-green-600 hover:bg-green-700 font-medium leading-snug uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out w-full flex justify-center items-center mb-3'
                 href='#!'
                 role='button'
                 data-mdb-ripple='true'
@@ -91,13 +91,13 @@ export default function SplashLanding () {
                 </p>
               </div>
               <a
-                className='px-7 py-3 text-white bg-blue-600 font-medium text-sm leading-snug uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out w-full flex justify-center items-center mb-3'
+                className='px-7 py-3 text-white bg-blue-700 hover:bg-blue-800 font-medium leading-snug uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out w-full flex justify-center items-center mb-3'
                 href='#!'
                 role='button'
                 data-mdb-ripple='true'
                 data-mdb-ripple-color='light'
               >
-                {/* <!-- Register --> */}
+                {/* <!-- Demo --> */}
                 See a demo trip!
               </a>
             </form>

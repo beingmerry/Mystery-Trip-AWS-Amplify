@@ -4,6 +4,9 @@ import NotFound from './components/NotFound'
 import Dashboard from './components/Dashboard'
 import NewTrip from './components/NewTrip'
 import SplashLanding from './components/SplashLanding'
+import TripList from './components/TripList'
+import Trips from './components/Trips'
+import { Children } from 'react'
 
 const router = createBrowserRouter([
   {
@@ -16,8 +19,26 @@ const router = createBrowserRouter([
         element: <SplashLanding />
       },
       {
-        path: 'new-post',
-        element: <NewTrip />
+        path: 'trips',
+        element: <Trips />,
+        children: [
+          {
+            path: 'new-trip',
+            element: <NewTrip />
+          },
+          {
+            path: 'trip-list',
+            element: <TripList />
+          }
+        ]
+      },
+      {
+        path: 'dashboard',
+        element: <Dashboard />
+      },
+      {
+        path: '*',
+        element: <NotFound />
       }
     ]
   }

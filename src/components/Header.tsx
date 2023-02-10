@@ -2,50 +2,40 @@ import { Link } from 'react-router-dom'
 
 export default function Header ({ fixed }: { fixed: boolean }) {
   return (
-    <nav className='flex items-end justify-between  bg-white shadow md:px-2 md:py-2 dark:bg-gray-900'>
-      <div className='font-semibold inline-flex dark:text-slate-300'>
-        <Link to='/' className='no-underline '>
-          <h1 className='hover:scale-150'>🔮</h1>
+    <nav className='flex items-end justify-between align-middle shadow md:px-2 md:py-2 dark:bg-gray-900'>
+      <div className='self-center text-2xl font-semibold whitespace-nowrap dark:text-white'>
+        <Link to='/' className='no-underline inline-flex'>
+          <h1 className='hover:scale-150 '>🔮</h1>
+          <div className='md:px-2' />
+          <h2>MysteryTrip</h2>
         </Link>
-        <div className='md:px-2' />
-        <h1>MysteryTrip</h1>
-        <div className='md:px-2' />
-        <h2 className='pl-2 font-semibold  dark:text-slate-300'>
-          🛫 Travel with a dash of Mystery!
-        </h2>
       </div>
-
-      <div className='dark:text-slate-300'>
-        <Link to='/'>Link 1</Link>
-        <Link to='/'>Link 2</Link>
-        Navlinks will go over here, Logout, Trips, Plan
+      <h1 className='hidden md:block self-center text-2xl font-semibold whitespace-nowrap dark:text-white'>
+        Travel with a twist!
+      </h1>
+      <div className='dark:text-slate-100 space-x-4 p-1'>
+        {/* <---- Trips ----> */}
+        <Link
+          to='/trips'
+          className='bg-blue-600  hover:bg-blue-700 font-bold py-1 px-3 rounded'
+        >
+          Trips
+        </Link>
+        {/* <---- Days ----> */}
+        <Link
+          to='/days'
+          className='bg-slate-600  hover:bg-slate-700 font-bold py-1 px-3 rounded'
+        >
+          Days
+        </Link>
+        {/* <---- Activities ----> */}
+        <Link
+          to='/activities'
+          className='bg-orange-600  hover:bg-orange-700 font-bold py-1 px-3 rounded'
+        >
+          Activities
+        </Link>
       </div>
     </nav>
   )
-}
-/*
-import { useSidebarState } from "../state/Site"
-<button onClick={() => toggleSidebar()}>Expand Sidebar</button>
-const toggleSidebar = useSidebarState(store => store.toggleSidebar)
-*/
-// Dark Mode Moon
-{
-  /* <svg viewBox='0 0 24 24' fill='none' className='w-6 h-6'>
-          <path
-            fill-rule='evenodd'
-            clip-rule='evenodd'
-            d='M17.715 15.15A6.5 6.5 0 0 1 9 6.035C6.106 6.922 4 9.645 4 12.867c0 3.94 3.153 7.136 7.042 7.136 3.101 0 5.734-2.032 6.673-4.853Z'
-            className='fill-transparent'
-          ></path>
-          <path
-            d='m17.715 15.15.95.316a1 1 0 0 0-1.445-1.185l.495.869ZM9 6.035l.846.534a1 1 0 0 0-1.14-1.49L9 6.035Zm8.221 8.246a5.47 5.47 0 0 1-2.72.718v2a7.47 7.47 0 0 0 3.71-.98l-.99-1.738Zm-2.72.718A5.5 5.5 0 0 1 9 9.5H7a7.5 7.5 0 0 0 7.5 7.5v-2ZM9 9.5c0-1.079.31-2.082.845-2.93L8.153 5.5A7.47 7.47 0 0 0 7 9.5h2Zm-4 3.368C5 10.089 6.815 7.75 9.292 6.99L8.706 5.08C5.397 6.094 3 9.201 3 12.867h2Zm6.042 6.136C7.718 19.003 5 16.268 5 12.867H3c0 4.48 3.588 8.136 8.042 8.136v-2Zm5.725-4.17c-.81 2.433-3.074 4.17-5.725 4.17v2c3.552 0 6.553-2.327 7.622-5.537l-1.897-.632Z'
-            className='fill-slate-400 dark:fill-slate-200'
-          ></path>
-          <path
-            fill-rule='evenodd'
-            clip-rule='evenodd'
-            d='M17 3a1 1 0 0 1 1 1 2 2 0 0 0 2 2 1 1 0 1 1 0 2 2 2 0 0 0-2 2 1 1 0 1 1-2 0 2 2 0 0 0-2-2 1 1 0 1 1 0-2 2 2 0 0 0 2-2 1 1 0 0 1 1-1Z'
-            className='fill-slate-400 dark:fill-slate-200'
-          ></path>
-        </svg> */
 }

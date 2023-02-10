@@ -51,7 +51,7 @@ export default function Footer () {
           className='text-slate-100 bg-blue-600 flex justify-center hover:bg-blue-700 font-bold py-1 px-2 rounded'
           target='_blank'
         >
-          🗻 Flatiron School for People Who Can't Code Good
+          🗻 Flatiron School for People Who Can't Code Good -<p className='scale-50 pl-1 hover:scale-100'> and Who Wanna Learn to Do Other Stuff Good Too </p>
         </a>
       </span>
     </footer>

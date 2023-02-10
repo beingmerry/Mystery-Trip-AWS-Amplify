@@ -5,7 +5,7 @@ export default function SplashLanding () {
   const [rememberMe, setRememberMe] = useState(false)
   return (
     <section className='h-auto'>
-      <div className='container px-6 py-2 h-auto w-auto'>
+      <div className='container px-6 h-auto w-auto'>
         <div className='flex justify-center items-center flex-wrap h-full g-6 text-gray-800'>
           <div className='md:w-8/12 lg:w-6/12 mb-12 md:mb-0'>
             <img

@@ -2,11 +2,10 @@ import { createBrowserRouter } from 'react-router-dom'
 import App from './components/App'
 import NotFound from './components/NotFound'
 import Dashboard from './components/Dashboard'
-import NewTrip from './components/NewTrip'
+import NewTrip from './components/Trip/NewTrip'
 import SplashLanding from './components/SplashLanding'
-import TripList from './components/TripList'
-import Trips from './components/Trips'
-import { Children } from 'react'
+import TripList from './components/Trip/TripList'
+import Trips from './components/Trip/Trips'
 
 const router = createBrowserRouter([
   {

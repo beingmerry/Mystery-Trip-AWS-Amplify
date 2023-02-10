@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import SplashPic from '../assets/Splash_PersonWithBagAtAirport.png'
 
 export default function SplashLanding () {
   const [rememberMe, setRememberMe] = useState(false)
@@ -8,7 +9,7 @@ export default function SplashLanding () {
         <div className='flex justify-center items-center flex-wrap h-full g-6 text-gray-800'>
           <div className='md:w-8/12 lg:w-6/12 mb-12 md:mb-0'>
             <img
-              src='./src/assets/Splash_PersonWithBagAtAirport.png'
+              src={SplashPic}
               className='w-full'
               alt='Cartoon of person getting ready to travel'
             />
